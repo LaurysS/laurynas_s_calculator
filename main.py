@@ -2,8 +2,8 @@ class Calculator:
     def __init__(self, symbol: str, number: float) -> None:
         self.symbol = symbol
         self.number = number
-    def add(self) -> float:
-        ...
+    def add(self, sk:float) -> float:
+        return self.number + sk
     def sub(self) -> float:
         ...
     def div(self) -> float:
